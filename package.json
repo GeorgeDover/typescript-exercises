@@ -1,0 +1,31 @@
+{
+  "name": "typescript-exercises",
+  "version": "1.0.0",
+  "description": "A series of typescript exercises open to forking or cloning",
+  "author": "George Dover",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "keywords": [
+    "typescript",
+    "exercises"
+  ],
+  "homepage": "https://github.com/GeorgeDover/typescript-exercises#readme",
+  "bugs": {
+    "url": "https://github.com/GeorgeDover/typescript-exercises/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeDover/typescript-exercises.git"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "run": "tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}
