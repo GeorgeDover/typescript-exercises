@@ -15,7 +15,7 @@ npm install
 ## Running an Exercise
 
 ```bash
-npm run exercises/01-hello-typescript/exercise.ts
+npx tsx exercises/00-hello-world
 ```
 
 ## Running Tests
