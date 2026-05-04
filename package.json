@@ -19,7 +19,6 @@
     "url": "git+https://github.com/GeorgeDover/typescript-exercises.git"
   },
   "scripts": {
-    "typecheck": "tsc --noEmit",
     "test": "tsc --noEmit && vitest run",
     "test:watch": "vitest --watch"
   },

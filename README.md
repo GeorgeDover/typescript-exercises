@@ -21,6 +21,7 @@ npx tsx exercises/00-hello-world
 ## Running Tests
 
 ```bash
-npm test                  # run all tests once
-npm run test:watch        # re-run on file changes
+npm test                                # run all tests once (typecheck enabled)
+npm test exercises/00-hello-world       # run tests within specific exercise (typecheck enabled)
+npm run test:watch                      # re-run on file changes
 ```
