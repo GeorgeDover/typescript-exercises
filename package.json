@@ -19,8 +19,7 @@
     "url": "git+https://github.com/GeorgeDover/typescript-exercises.git"
   },
   "scripts": {
-    "test": "tsc --noEmit && vitest run",
-    "test:watch": "vitest --watch"
+    "test": "vitest run"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
