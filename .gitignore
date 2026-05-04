@@ -1,3 +1,6 @@
+# Custom ignore path to support copying exercises/* into a separate directory before solving
+solutions
+
 # Logs
 logs
 *.log
