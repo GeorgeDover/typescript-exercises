@@ -5,6 +5,7 @@
   "author": "George Dover",
   "license": "GPL-3.0-or-later",
   "type": "module",
+  "private": true,
   "keywords": [
     "typescript",
     "exercises"
