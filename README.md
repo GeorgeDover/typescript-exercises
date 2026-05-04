@@ -12,6 +12,8 @@ cd typescript-exercises
 npm install
 ```
 
+It is also generally a good idea to turn off autocomplete, linting and automatic formatting within your IDE - assume you won't have these available during an interview.
+
 ## Running an Exercise
 
 ```bash
