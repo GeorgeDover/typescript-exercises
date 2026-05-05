@@ -14,6 +14,9 @@ npm install
 
 It is also generally a good idea to turn off autocomplete automatic formatting within your IDE - assume you won't have these available during an interview.
 
+## Type Checking
+Type correctness is not enforced by the test runner — install a TypeScript linter extension for your IDE (such as the [TypeScript and JavaScript Language Features](https://code.visualstudio.com/docs/languages/typescript) extension in VS Code, which is enabled by default) and resolve any errors shown in the Problems panel before running or testing an exercise.
+
 ## Running an Exercise
 
 ```bash
