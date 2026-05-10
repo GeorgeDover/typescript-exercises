@@ -46,7 +46,6 @@
 import { EmployeeRegistryAbstract } from "./registry.abstract.js";
 
 export interface Employee {
-  id: string;
   name: string;
   jobTitle: string;
   hourlyRate: number;
