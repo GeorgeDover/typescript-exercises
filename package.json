@@ -1,7 +1,7 @@
 {
   "name": "typescript-exercises",
   "version": "1.0.0",
-  "description": "A series of typescript exercises open to forking or cloning",
+  "description": "A collection of TypeScript exercises for practice and exploration ",
   "author": "George Dover",
   "license": "GPL-3.0-or-later",
   "type": "module",
