@@ -32,5 +32,5 @@ npx tsx exercises/00-hello-world
 ## Running Tests
 
 ```bash
-npm test exercises/00-hello-world       # run tests within specific exercise
+npm test exercises/00-hello-world
 ```
