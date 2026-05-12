@@ -11,14 +11,15 @@ export abstract class EmployeeRegistryAbstract {
   getEmployee(_id: string): Employee { throw new Error("Not implemented"); }
 
   // ─── PART 2 ───────────────────────────────────────────────────────────────
-  addBonusPeriod(_start: string, _end: string, _multiplier: number): boolean { return false; }
-  calculatePayForDay(_id: string, _day: string, _hoursWorked: number): number { throw new Error("Not implemented"); }
-  calculatePayForPeriod(_id: string, _start: string, _end: string, _hoursPerDay: number): number { throw new Error("Not implemented"); }
+  logHours(_id: string, _day: string, _hoursWorked: number): number { throw new Error("Not implemented"); }
+  calculatePayForDay(_id: string, _day: string): number { throw new Error("Not implemented"); }
+  calculatePayForPeriod(_id: string, _start: string, _end: string): number { throw new Error("Not implemented"); }
 
   // ─── PART 3 ───────────────────────────────────────────────────────────────
+  addBonusPeriod(_start: string, _end: string, _multiplier: number): boolean { return false; }
   updateHourlyRate(_id: string, _newRate: number, _effectiveFrom?: string): number { throw new Error("Not implemented"); }
 
   // ─── PART 4 ───────────────────────────────────────────────────────────────
-  getPayrollSummary(_hoursWorked: number): PayrollSummary { return {} as PayrollSummary; }
-  getMedianPaid(_hoursWorked: number): number { return 0; }
+  getMedianPaid(_start: string, _end: string): number { return 0; }
+  getPayrollSummary(_start: string, _end: string): PayrollSummary | null { return null; }
 }
