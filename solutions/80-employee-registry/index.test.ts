@@ -1,6 +1,8 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { EmployeeRegistry } from "./index.js";
 
+// Uncomment each section of tests as you reach the relevant part.
+
 let registry: EmployeeRegistry;
 
 beforeEach(() => {
