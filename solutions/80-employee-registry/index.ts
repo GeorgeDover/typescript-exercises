@@ -74,7 +74,7 @@ export class EmployeeRegistry extends EmployeeRegistryAbstract {
     if (multiplier < 1) return false;
 
     for (const period of this.bonusPeriods) {
-      if (start < period.end && end > period.start) return false;
+      if (start <= period.end && end >= period.start) return false;
     }
 
     this.bonusPeriods.push({ start, end, multiplier });
